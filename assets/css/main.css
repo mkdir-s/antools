@@ -191,4 +191,161 @@ a {
 .intro__social-img {
   margin-right: 20px;
 }
+
+.tools {
+  margin-bottom: 200px;
+}
+
+.tools__title {
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 25px;
+}
+
+.tools__subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 90px;
+}
+
+.tools__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px 25px;
+  margin-bottom: 100px;
+}
+
+.tools__item {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  padding: 25px 33px;
+  position: relative;
+}
+
+.tools__item::after {
+  position: absolute;
+  content: '';
+  background: rgba(255, 110, 48, 0.6);
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+  width: 65px;
+  height: 65px;
+  top: 6px;
+  right: 16px;
+  opacity: .5;
+}
+
+.tools__item:hover {
+  background: rgba(40, 48, 54, 0.6);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 15px;
+}
+
+.tools__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 30px;
+}
+
+.tools .tools__item path,
+.tools .tools__item svg {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.tools .tools__item svg {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.tools .tools__item:hover path {
+  fill: #FD3B41;
+  fill-opacity: 1;
+}
+
+.tools .tools__item:hover svg {
+  background: #283036;
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+          box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border-radius: 8px;
+}
+
+.tools .tools__item:hover .tools__right-link {
+  background: #FF6E30;
+  color: #fff;
+}
+
+.tools .tools__item:hover .tools__box-title {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tools .tools__item:hover .tools__box-subtitle {
+  color: #FFA537;
+}
+
+.tools .tools__item:hover .tools__item-text {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tools__top-img {
+  margin-right: 30px;
+}
+
+.tools__box-title {
+  margin-bottom: 3px;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tools__box-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 165, 55, 0.55);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.tools__top {
+  margin-bottom: 30px;
+}
+
+.tools__left-save {
+  cursor: pointer;
+}
+
+.tools__right-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 9px 35px;
+  border-radius: 8px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.tools__button {
+  text-align: center;
+}
+
+.tools__button-link {
+  font-size: 20px;
+  line-height: 30px;
+  color: #FF6E30;
+  padding: 17px 38px;
+  background: #1E252B;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
 /*# sourceMappingURL=main.css.map */
