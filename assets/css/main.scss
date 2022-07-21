@@ -340,3 +340,49 @@ a {
         }
     }
 }
+
+.footer {
+    padding: 70px 0 100px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 260px;
+        &-img {
+            margin-bottom: 25px;
+        }
+        &-copy {
+            margin-bottom: 21px;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            color: rgba(255, 255, 255, 0.55);
+        }
+    }
+    &__menu {
+        &-title {
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 20px;
+        }
+    }
+    &__list {
+        &-item {
+            margin-bottom: 10px;
+        }
+        &-link {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.55);
+        }
+    }
+}
